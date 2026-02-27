@@ -1,0 +1,13 @@
+Understand and Define the Problem:
+
+A local university wants an automated parking barrier system.
+System must contain:
+  1. Automatically opening barriers
+  2. Car entering and exiting sensor
+  3. A monitor that displays the parking space availability.
+  4. Trigger an alert if someone tries to enter the parking lot when it is full
+
+
+
+
+
