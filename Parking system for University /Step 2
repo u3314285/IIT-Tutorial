@@ -1,0 +1,18 @@
+Organise and Describe the Data 
+
+Inputs:
+  Vehicle ID
+  Entry sensor
+  Exit Sensor
+
+Outputs: 
+  Barrier opens or closes
+  Display the number of vehicles
+  Alert message when the parking is full
+
+Stored Data:
+  Vehicles Occupancy 100
+  Registered Vehicles
+  Number of vehicles inside the parking
+
+
