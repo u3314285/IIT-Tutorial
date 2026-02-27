@@ -1,0 +1,23 @@
+Implementing the solution (Pseudo Code):
+
+SET max_capacity = 100
+SET current_cars = 0
+
+Situation 1:
+WHEN vehicle arrives:
+    IF vehicle is registered THEN
+        IF current_cars < max_capacity THEN
+            Open barrier
+            current_cars = current_cars + 1
+        ELSE
+            Trigger alert: "Parking Full"
+        ENDIF
+    ELSE
+        Keep barrier closed
+    ENDIF
+    Display available spots = max_capacity - current_cars
+
+Sitaution 2:
+WHEN vehicle exits:
+    current_cars = current_cars - 1
+    Display available spots = max_capacity - current_cars
