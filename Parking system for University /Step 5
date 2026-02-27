@@ -1,0 +1,14 @@
+Test the Solution:
+
+Test Case1:
+The vehicle is trying to enter the parking lot, but it is not registered, so let the barreirs closed.
+
+Test Case2:
+A registered vehicle is trying to enter the parking lot and the parking has 76 spots available. Open the barriers
+
+Test Case3:
+A registered vehicle is trying to enter the parking lot, but the parking lot is full. Let the barriers be closed and send an alert to the driver.
+
+Test Case4:
+When a car exits the parking lot, update the number of parking spaces available.
+
